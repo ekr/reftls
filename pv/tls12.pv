@@ -141,5 +141,5 @@ query cr:random, sr:random, psk:preSharedKey,
         
 process 
 	!Client12() | !Server12() | 
-	!longTermKeys() | !appData() |
+	!longTermKeysProc() | !appData() |
 	!secrecyQuery() | !channelBindingQuery()
